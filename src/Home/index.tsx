@@ -60,9 +60,10 @@ function Home() {
      <input
   type="text"
   placeholder="Buscar palabra..."
+  className="search-bar"
   value={busqueda}
   onChange={(e) => setBusqueda(e.target.value)}
-  className="search-bar"
+
         />
 
       <h2>{title}</h2>

@@ -8,7 +8,7 @@ function Original() {
   const obtenerVersiculo = async () => {
     setCargando(true)
 
-    const libros = ["john", "genesis", "psalms"]
+    const libros = ["john", "genesis", "daniel"]
     const libro = libros[Math.floor(Math.random() * libros.length)]
     const capitulo = Math.floor(Math.random() * 5) + 1
 
@@ -45,7 +45,7 @@ function Original() {
           <p className="verso">
             "{verso}"
           </p>
-        )}
+        ) }
 
       </div>
     </div>
