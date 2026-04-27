@@ -1,57 +1,56 @@
+/* Fondo más neutro */
 .verse-page {
-  margin: 0;
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #503109; /* crema suave */
-  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  background: #f5f7fa; /* gris claro elegante */
+  padding: 20px;
 }
 
-
-.verse-page .verse-container {
-  width: 90%;
-  max-width: 750px;
-  padding: 35px 30px;
-  background: #fffaf2; /* crema más claro */
-  border-radius: 16px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-  border: 1px solid #eadfcd;
-}
-
-
-.verse-page .verse-title {
-  font-size: 22px;
-  font-weight: 700;
+/* Tarjeta */
+.verse-container {
+  background: #ffffff;
+  padding: 50px 40px;
+  border-radius: 20px;
+  max-width: 650px;
+  width: 100%;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
   text-align: center;
-  margin-bottom: 25px;
-  color: #2f2a24;
-  letter-spacing: 0.3px;
 }
 
-/* TEXTO PRINCIPAL */
-.verse-page .verse-text {
-  font-size: 19px;
-  line-height: 1.9;
-  color: #3b352d;
-  text-align: justify;
-  font-family: Georgia, serif; /* estilo libro */
-}
-
-/* BOTÓN */
-.verse-page button {
-  display: block;
-  margin: 30px auto 0 auto;
-  padding: 11px 18px;
-  border: none;
-  border-radius: 10px;
-  background: #6b4f2a; /* tono café elegante */
-  color: #fff;
-  cursor: pointer;
+/* Título (referencia del versículo) */
+.verse-title {
+  font-size: 16px;
   font-weight: 600;
-  transition: 0.2s ease;
+  color: #888;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
 }
 
-.verse-page button:hover {
-  background: #5a4223;
+/* Texto principal */
+.verse-text {
+  font-size: 22px;
+  line-height: 1.8;
+  color: #222;
+  margin-bottom: 40px;
+  font-family: "Georgia", serif; /* estilo lectura */
+}
+
+/* Botón elegante */
+.verse-container button {
+  background: #111;
+  color: white;
+  border: none;
+  padding: 14px 26px;
+  border-radius: 999px; /* botón tipo píldora */
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+/* Hover más fino */
+.verse-container button:hover {
+  background: #333;
+  transform: scale(1.05);
 }

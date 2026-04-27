@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router";
 import Favoritos from "./Favoritos"
 import Home from "./Home"
 import Informativa from "./Informativa"
@@ -33,11 +33,12 @@ function App() {
 
         </nav>
         <Routes>
-          <Route path="/" element={<Home />} />
+          
           <Route path="/Favoritos" element={<Favoritos />} />
           <Route path="/Informativa" element={<Informativa />} />
           <Route path="/Original" element={<Original />} />
           <Route path="/Home" element={<Home />} />
+
           <Route path="/" element={<Home />} />
           <Route path="/verso/:libro/:id" element={<Verso />} />
 

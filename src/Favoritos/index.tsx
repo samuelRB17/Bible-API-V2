@@ -18,7 +18,7 @@ function Favoritos() {
     setFavorites(stored)
   }, [])
 
-  // eliminar  esefavorito
+  
   const eliminarFavorito = (verseNumber: number) => {
     const actualizados = favorites.filter(v => v.verse !== verseNumber)
 

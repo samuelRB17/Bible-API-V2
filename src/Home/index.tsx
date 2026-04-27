@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react"
-import { Link } from "react-router-dom"
+import { useState, useEffect } from "react" // hooks que voy a utilizar de Raect
+import { Link } from "react-router" 
 import "./styles.css"
 
 interface Verse {
@@ -63,7 +63,7 @@ function Home() {
   value={busqueda}
   onChange={(e) => setBusqueda(e.target.value)}
   className="search-bar"
-/>
+        />
 
       <h2>{title}</h2>
 

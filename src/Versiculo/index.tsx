@@ -1,5 +1,6 @@
-import { useParams } from "react-router-dom"
+import { useParams } from "react-router"
 import { useState, useEffect } from "react"
+import "./styles.css"
 
 interface Verse {
   book_name: string
